@@ -20,6 +20,7 @@ def event_hub_output(req:func.HttpRequest, event: func.Out[str]) -> func.HttpRes
     return func.HttpResponse("success", status_code=200)
 
 
+
 # This example uses SDK types to directly access the underlying EventData object provided by the Event Hubs trigger.
 # To use, uncomment the section below and add azurefunctions-extensions-bindings-eventhub to your requirements.txt file
 # Ref: aka.ms/functions-sdk-eventhub-python
